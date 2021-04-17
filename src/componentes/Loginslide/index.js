@@ -27,8 +27,12 @@ export default function Loginslide() {
                 <div className="get-the-app">
                     <p className="get-app">Obtenha o aplicativo</p>
                     <div className="download">
-                        <a href="#" className="app-download"></a>
-                        <a href="#" className="app-download"></a>
+                        <a href="#" className="app-apple">
+                            <img src="/img/apple-botao.png" alt="Apple"></img>
+                        </a>
+                        <a href="#" className="app-android">
+                            <img src="/img/google-botao.png" alt="Google"></img>
+                        </a>
                     </div>
                 </div>
             </div>

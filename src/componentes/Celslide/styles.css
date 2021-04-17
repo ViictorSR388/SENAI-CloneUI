@@ -32,8 +32,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    margin: 15px;
+    width: 35%;
+    margin-bottom: 5%;
 }
 
 /* Seleção de imagens pela função do css nth-child() */
