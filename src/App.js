@@ -1,16 +1,10 @@
-import './App.css';
-import PaginaLogin from './componentes/PaginaLogin'
-import Celslide from './componentes/Celslide'
+import React from 'react';
+import Rotas from './rotas';
 
 function App() {
   return (
     <div className="App">
-
-      <Celslide/> 
-      <PaginaLogin/>
-
-
-      
+      <Rotas />
     </div>
   );
 }

@@ -1,0 +1,163 @@
+.instagram-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontal*/
+    justify-content: space-around; /* Vertical */
+    width: 50%;
+    min-height: 34rem;
+}
+
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+/* Caixa de login */
+.grupo:nth-child(1){
+    min-height: 19rem;
+}
+
+/* Caixa de criar conta */
+.grupo:nth-child(2){
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.grupo span{
+    margin: 10px 0 10px 0;
+}
+
+/* Imagem acima dos inputs */
+.instagram-logo{
+    height: 8rem;
+    width: 12rem;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Email e Senha */
+.submit input{
+    background: #fafafa;
+    border: 0;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    margin-top: 12px;
+    width: 16rem;
+    height: 2.5rem;
+    font-size: 12px;
+}
+
+/* Botao de entrar */
+.button-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 16rem;
+    text-align: center;
+    border: none;
+}
+
+.alternative{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cac9c9;
+}
+
+/* Texto "OU" no html */
+.alternative span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    color: #8e8e8e;
+}
+
+/* (before) linha esquerda */
+.alternative span::before, .alternative span::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 500%;
+    bottom: 50%;
+    right: 40px;
+    background-color: #dbdbdb;
+}
+
+/* Linha direita */
+.alternative span::after{
+    left: 40px;
+}
+
+#text{
+    font-size: 14px;
+    color: #385185;
+}
+
+#text i{
+    margin: 0 8px 0 0; /* Gambiara pro espaçamento do icone para o texto */
+}
+
+.instagram-password{
+    color: #385185;
+    margin-top: 1rem;
+    font-size: 12px;
+    margin: 12px 0 0;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+/* .app-download:nth-child(1){
+    background-image: url("../img/apple-botao.png"); 
+}
+
+.app-download:nth-child(2){
+    background-image: url('../img/google-botao.png'); 
+} */
+@media(max-width: 650px){
+    .instagram-login{
+        width: 80%;
+        height: 80%;
+        margin-top: 200rem;
+    }
+
+    .grupo{
+        border: 1px solid transparent;
+        margin: auto;
+    }
+}
