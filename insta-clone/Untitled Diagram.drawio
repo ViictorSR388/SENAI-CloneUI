@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T21:01:42.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="v9D4QVMYpWDMYfqKWRxY" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T21:15:31.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="3lS4bGky7yOg-WOFsX-u" version="14.4.7" type="github">
   <diagram id="piDafpqhtRUU5qUU-vj8" name="Page-1">
     <mxGraphModel dx="2374" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,6 +144,18 @@
         </mxCell>
         <mxCell id="4rWkRKcFM0BYtaD7CyUO-56" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;i&gt;seguir&lt;/i&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4rWkRKcFM0BYtaD7CyUO-11">
           <mxGeometry x="1350" y="540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWkRKcFM0BYtaD7CyUO-57" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="4rWkRKcFM0BYtaD7CyUO-11">
+          <mxGeometry x="480" y="460" width="660" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWkRKcFM0BYtaD7CyUO-58" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userMale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="4rWkRKcFM0BYtaD7CyUO-11">
+          <mxGeometry x="490" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWkRKcFM0BYtaD7CyUO-59" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Nick&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4rWkRKcFM0BYtaD7CyUO-11">
+          <mxGeometry x="520" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rWkRKcFM0BYtaD7CyUO-60" value="&lt;span style=&quot;font-weight: 400&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Localização&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4rWkRKcFM0BYtaD7CyUO-11">
+          <mxGeometry x="530" y="420" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
