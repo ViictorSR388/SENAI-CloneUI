@@ -3,6 +3,7 @@
 .instagram-phone .bg,
 .instagram-phone .slide{
     position: absolute;
+    padding-top: 24px;
 }
 
 /* Imagens dentro do celular */
@@ -81,7 +82,7 @@
         opacity: 0;
     }
 }
-@media(max-width: 650px){
+@media(max-width: 1190px){
     .instagram-phone{
         display: none;
     }

@@ -1,18 +1,19 @@
 import React from 'react';
-import '../../../styles/login/Loginslide.scss'
+import { Link } from 'react-router-dom';
+import '../../../styles/login/Loginslide.scss';
 
 export default function Loginslide() {
     return(
         <div className="instragram-login">
                 <div className="grupo">
-                    <img src="./img/instagram-logo.png" className="instagram-logo" alt="instagram-logo" />
+                    <img src="../../../../img/instagram-logo.png" className="instagram-logo" alt="instagram-logo" />
 
                     <div className="submit">
                         <input type="email" placeholder="Telefone, nome de usuário ou email" />
                         <input type="password" placeholder="Senha" />
                     </div>
 
-                    <button className="button-login">Entrar</button>
+                    <Link className="button-login" to="/feed">Entrar</Link>
 
                     <div className="alternative">
                         <span>ou</span>
@@ -27,11 +28,11 @@ export default function Loginslide() {
                 <div className="get-the-app">
                     <p className="get-app">Obtenha o aplicativo</p>
                     <div className="download">
-                        <a href="#" className="app-apple">
-                            <img src="/img/apple-botao.png" alt="Apple"></img>
+                        <a href="https://apps.apple.com/br/app/instagram/id389801252" className="app-apple">
+                            <img src="../../../../img/apple-botao.png" className="app-apple" alt="Apple"></img>
                         </a>
-                        <a href="#" className="app-android">
-                            <img src="/img/google-botao.png" alt="Google"></img>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US" className="app-android">
+                            <img src="../../../../img/google-botao.png" className="app-android" alt="Google"></img>
                         </a>
                     </div>
                 </div>
