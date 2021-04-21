@@ -47,4 +47,4 @@ QR Code:
 
 Link da hospedagem na [Netlify](https://www.netlify.com/):
 
-- [Clone-Instagram](https://instagram-in-react.netlify.app/).
+<a href="https://instagram-in-react.netlify.app/" target="_blank">Clone-Instagram</a>
