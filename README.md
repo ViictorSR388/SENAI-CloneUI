@@ -7,6 +7,14 @@
 Clone da interface do Instagram desenvolvida em React, através de um tutorial no Youtube pelo canal do [
 Aleks Popovic](https://www.youtube.com/channel/UCu3RVedqyL5o776xyQlbyAw). Para visitar seu perfil no Github clique [aqui](https://github.com/alekspopovic).
 
+### Integrantes do Grupo
+
+- [Allan Gama](https://github.com/allan-gh)
+- [Antonio Augusto](https://github.com/Antonio1711)
+- [Athilas Silva](https://github.com/Athilas-Silva)
+- [Caliu Santos](https://github.com/caliusantos)
+- [Victor Eduardo](https://github.com/ViictorSR388)
+
 ### Ferramentas utilizadas
 
 - [Vs Code](https://code.visualstudio.com/)
