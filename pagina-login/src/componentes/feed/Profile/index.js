@@ -30,7 +30,7 @@ function Profile(props) {
                 <span className={`caption ${captionSize}`}>{caption}</span>
             </div>
         )}
-        <a href='/'>{urlText}</a>
+        <a href='#'>{urlText}</a>
     </div>
 }
 

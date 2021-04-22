@@ -2,17 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    position: fixed;
+    width: 93%;
     height: 100%;
     background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
 }
+
 /* Responsividade */
 @media(max-width: 1220px){
     .instagram-wrapper{
         width: 90%;
-
     }
 }
 
